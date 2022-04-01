@@ -25,10 +25,3 @@
     }
   ]
 }
-
-
-
-
-
-
-<Route path="/"> <News pageSize={5} country={"in"} category={"general"} /> </Route>
