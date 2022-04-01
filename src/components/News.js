@@ -31,7 +31,7 @@ const News = (props) => {
     }
 
     useEffect(() => {
-        document.title = `NewsApp - ${this.capitalizeFirstLetter(props.category)}`
+        document.title = `NewsApp - ${capitalizeFirstLetter(props.category)}`
         updateNews();
     })
 
@@ -97,4 +97,4 @@ News.propTypes = {
     category: PropTypes.string.isRequired
 }
 
-export default News
+export default News;
